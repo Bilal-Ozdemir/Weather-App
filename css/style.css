@@ -1,0 +1,85 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:cornflowerblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityEntered {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color:forestgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   color: white;
+}
+
+.box {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(39, 100%, 75%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+p {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 25px;
+
+}
+.cityDisplay, .tempDisplay {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.emojiDisplay {
+    font-size: 80px;
+    margin: 0;
+}
+.errorDisplay {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
